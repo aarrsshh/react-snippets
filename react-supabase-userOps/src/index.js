@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { AuthProvider } from './contexts/Auth';
-import Form from './components/Signup/Form';
+import Routes from './routes';
 import './index.css';
 
 ReactDOM.render(
   <AuthProvider>
-    <Form />
+    <Routes />
   </AuthProvider>,
   document.getElementById('root')
 );
